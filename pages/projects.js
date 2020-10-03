@@ -62,6 +62,17 @@ const Projects = () => (
                         <Button href="https://melissaappolis.github.io/React-Memory-Game/" style={projectButton} variant="outline-secondary">View app ▻▻</Button>
                     </Card.Body>
             </Card>
+            <br/>
+            <Card style={{ width: '650px', boxShadow: '5px 5px 18px #888888' }}>
+                <Card.Img variant="top" src="/project5.png"/>
+                    <Card.Body>
+                        <Card.Title style={projectTitle}>Rest-Countries API APP</Card.Title>
+                        <Card.Text style={projectText}>
+                            This App was created with Next.js that displays all the countries in the African region and allows a user to view details about the country selected. The app uses the restcountries API to fetch the country data.
+                        </Card.Text>
+                        <Button href="https://restcountries-8084onzmm.vercel.app" style={projectButton} variant="outline-secondary">View app ▻▻</Button>
+                    </Card.Body>
+            </Card>
             </div> 
         </div>
         <style jsx>{`
